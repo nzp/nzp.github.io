@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="{{ page.lang }}" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic&subset=cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/foundation.min.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+  </head>
+  <body>
+
+    <div class="grid-container">
+
+    {% include site_header.html %}
+      <div class="grid-x grid-padding-x">
+        <div class="cell">
+            {{ content }}
+        </div>
+      </div>
+
+    {% include site_footer.html %}
+    </div>
+
+    <script src="/assets/js/vendor/jquery.js"></script>
+    <script src="/assets/js/vendor/what-input.js"></script>
+    <script src="/assets/js/vendor/foundation.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+timezone: Europe/Belgrade
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME

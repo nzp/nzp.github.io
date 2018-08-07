@@ -1,0 +1,49 @@
+body {
+    font-family: 'Fira Sans';
+}
+
+a {
+    color: inherit;
+    border-bottom: solid 2px firebrick;
+}
+
+a:hover {
+    color: firebrick;
+    border-bottom: none;
+}
+
+a:focus {
+    color: firebrick;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fira Sans';
+}
+
+#site-footer {
+    color: gray;
+}
+
+#site-footer p {
+    font-size: 0.9rem;
+}
+
+#footer-social > a {
+    border: none;
+}
+
+.header p {
+    font-family: 'Monoton';
+    color: firebrick;
+    font-size: 3rem;
+    border-bottom: 3px solid firebrick;
+}
+
+.header a {
+    border: none;
+}
