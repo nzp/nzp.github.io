@@ -47,3 +47,28 @@ h6 {
 .header a {
     border: none;
 }
+
+#post-navigation {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+#post-navigation li {
+    margin-bottom: 1.5rem;
+}
+
+#post-navigation a {
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.post-title {
+    font-variant: small-caps;
+}
+
+.post-heading-date {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: gray;
+}
