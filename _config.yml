@@ -1,5 +1,7 @@
 timezone: Europe/Belgrade
 permalink: /:title/
+plugins:
+  - jekyll-gist
 
 defaults:
   -
