@@ -2,6 +2,11 @@ body {
     font-family: 'Fira Sans';
 }
 
+code {
+    background: none;
+    border: none;
+}
+
 a {
     color: inherit;
     border-bottom: solid 2px firebrick;
