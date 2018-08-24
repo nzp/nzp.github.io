@@ -210,10 +210,10 @@ public class AddProgramServlet extends HttpServlet {
             if (!parameterToProgramExercises.containsKey(parameterParts[0])) {
                 ProgramExercise exercise = new ProgramExercise();
                 parameterToProgramExercises.put(parameterParts[0], exercise);
-                invokeMethod(exercise, parameter.getValue()[0], metodName, String.class);
+                invokeMethod(exercise, parameter.getValue()[0], metodName);
             } else {
                 ProgramExercise exercise = parameterToProgramExercises.get(parameterParts[0]);
-                invokeMethod(exercise, parameter.getValue()[0], metodName, String.class);
+                invokeMethod(exercise, parameter.getValue()[0], metodName);
             }
         }
         List<ProgramExercise> programExercises = new ArrayList<>(parameterToProgramExercises.values());
